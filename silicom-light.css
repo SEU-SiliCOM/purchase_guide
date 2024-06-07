@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url(./silicom.css);
+
+:root {
+    --silicom-extra-dark-color: #021e31;
+    --silicom-dark-color: #105989;
+    --silicom-color: #3895d3;
+    --silicom-light-color: #76bfef;
+    --silicom-extra-light-color: #ceeafd;
+
+    --gray-extra-dark-color: #1a1a1a;
+    --gray-dark-color: #4d4d4d;
+    --gray-color: #808080;
+    --gray-light-color: #b3b3b3;
+    --gray-extra-light-color: #e6e6e6;
+
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    color: var(--black-color);
+    background-color: var(--white-color);
+
+    --scroll-bg-color: var(--silicom-light-color);
+    --scroll-color: var(--silicom-dark-color);
+    --home-bg-color: var(--silicom-color);
+    --home-color: var(--white-color);
+    --home-button1-border-color: var(--silicom-extra-light-color);
+    --home-button1-color: var(--silicom-extra-light-color);
+    --home-button1-hover-color: var(--silicom-color);
+    --home-button2-bg-color: var(--silicom-extra-dark-color);
+    --home-button2-color: var(--white-color);
+    --home-button2-hover-bg-color: var(--silicom-dark-color);
+    --home-button2-hover-color: var(--white-color);
+    --sidebar-bg-color: var(--silicom-color);
+    --sidebar-color: var(--white-color);
+    --sidebar-hover-bg-color: var(--silicom-dark-color);
+    --sidebar-hover-color: var(--white-color);
+    --sidebar-hover-border-color: var(--silicom-extra-dark-color);
+    --sidebar-active-bg-color: var(--silicom-extra-dark-color);
+    --sidebar-active-color: var(--silicom-extra-light-color);
+    --sidebar-active-border-color: var(--black-color);
+    --sidebar-title-bg-color: var(--gray-color);
+    --sidebar-title-color: var(--white-color);
+    --sidebar-search-bg-color: var(--silicom-extra-light-color);
+    --sidebar-search-color: var(--gray-light-color);
+    --sidebar-search-hr-color: var(--gray-light-color);
+    --sidebar-toggle-open-color: var(--silicom-color);
+    --sidebar-toggle-close-color: var(--white-color);
+    --sidebar-toggle-hover-color: var(--silicom-light-color);
+    --content-bg-color: var(--white-color);
+    --content-color: var(--black-color);
+    --content-title-color: var(--silicom-color);
+    --content-decoration1-color: var(--silicom-color);
+    --content-decoration2-color: var(--silicom-light-color);
+    --content-info-color: var(--gray-color);
+    --content-list-mark-color: var(--silicom-color);
+    --content-block-bg-color: var(--silicom-extra-light-color);
+    --content-block-border-color: var(--silicom-color);
+    --content-table-border-color: var(--silicom-color);
+    --content-table-thead-bg-color: var(--silicom-color);
+    --content-table-thead-color: var(--white-color);
+    --content-table-tbody-even-bg-color: var(--silicom-extra-light-color);
+    --content-table-tbody-odd-bg-color: var(--white-color);
+    --content-table-tbody-hover-bg-color: var(--silicom-light-color);
+    --content-table-tbody-color: var(--black-color);
+    --content-link-color: var(--silicom-color);
+    --content-hr-color: var(--silicom-extra-light-color);
+    --toc-color: var(--black-color);
+    --toc-primary-color: var(--silicom-color);
+    --toc-secondary-color: var(--gray-extra-light-color);
+    --pagination-hover-bg-color: var(--silicom-extra-light-color);
+
+    --toc-mobile-bg-color: var(--silicom-extra-light-color);
+
+    --silicom-font: "Roboto", "Noto Sans SC", Arial, sans-serif;
+    --silicom-mono-font: "Chivo Mono", monospace, sans-serif;
+}
