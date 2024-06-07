@@ -6,12 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" title="light" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.3.1/dist/light.css">
-  <link rel="stylesheet" title="dark" href="https://cdn.jsdelivr.net/npm/docsify/themes/dark.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.css">
+  <link rel="stylesheet" title="light" href="./silicom-light.css">
   <style type="text/css">
-      /* navs fixed 顶部导航fixed固定*/
       .app-nav {
         position: fixed; 
       }
@@ -25,13 +21,13 @@
       subMaxLevel: 1,
       name: 'SiliCOM购机指南',
       repo: 'https://github.com/SEU-SiliCOM/purchase_guide',
-      coverpage: true, // 展示封面
+      coverpage: true,
       toc: {
           tocMaxLevel: 5,
           target: 'h2, h3, h4, h5, h6',
           ignoreHeaders: ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
       },
-      pagination: { // 分页插件配置
+      pagination: {
         previousText: '上一章节',
         nextText: '下一章节',
         crossChapter: true,
@@ -44,18 +40,23 @@
         language:'chinese'
       },
       darkSwitch: {
-        fixed: true, // switch按钮fixed固定
+        fixed: true,
       },
     }
-    
   </script>
   <!-- Docsify v4 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Plugins -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.min.js"></script>
   <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- Support necessary language highlight -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
 </body>
 </html>

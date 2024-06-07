@@ -1,4 +1,8 @@
-# SiliCOM电脑协会购机指南 <small>0.0.1</small>
+![Cover Image](./coverpage.jpg)
 
-<a href="https://github.com/SEU-SiliCOM/purchase_guide">Github</a>
-<a href="#README">开始</a>
+<img class="logo" src="./logo.png" alt="logo">
+
+# SiliCOM电脑协会购机指南 <small>v0.1.0</small>
+
+<a href="https://github.com/SEU-SiliCOM/purchase_guide">GitHub</a>
+<a href="./#/#写在前面">开始</a>
