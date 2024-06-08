@@ -9,6 +9,10 @@
     --sidebar-width: 18.75rem;
 }
 
+html::after {
+    display: none;
+}
+
 * {
     box-sizing: border-box
 }
@@ -196,6 +200,7 @@ li input[type=checkbox] {
 }
 
 .github-corner {
+    display: block;
     border-bottom: 0;
     position: fixed;
     right: 0;
@@ -209,10 +214,10 @@ li input[type=checkbox] {
 }
 
 .github-corner svg {
-    color: var(--white-color);
-    fill: var(--blackcolor, var(--silicom-color));
     height: 80px;
-    width: 80px
+    width: 80px;
+    color: var(--github-color);
+    fill: var(--github-bg-color);
 }
 
 main {
@@ -475,22 +480,22 @@ body.close .sidebar-toggle::before {
 }
 
 .sidebar-toggle span {
-    background-color: var(--white-color);
+    background-color: var(--sidebar-toggle-open-color);
     display: block;
     width: 1rem;
     height: calc(0.5rem / 3);
 }
 
 .sidebar-toggle:hover span {
-    background-color: var(--silicom-light-color);
+    background-color: var(--sidebar-toggle-hover-color);
 }
 
 body.close .sidebar-toggle span {
-    background-color: var(--silicom-color);
+    background-color: var(--sidebar-toggle-close-color);
 }
 
 body.close .sidebar-toggle:hover span {
-    background-color: var(--silicom-light-color);
+    background-color: var(--sidebar-toggle-hover-color);
 }
 
 .markdown-section {
@@ -544,6 +549,7 @@ body.close .sidebar-toggle:hover span {
 .markdown-section h5,
 .markdown-section h6 {
     font-family: var(--silicom-font);
+    color: var(--content-title-h2-color);
 }
 
 .markdown-section h1 a,
@@ -886,7 +892,7 @@ section.cover p:has(a) a:last-child:hover {
 }
 
 section.cover h1 {
-    color: var(--white-color);
+    color: var(--home-color);
     font-size: 4rem;
     font-weight: 900;
     margin: 0;
@@ -1141,6 +1147,15 @@ aside.toc-nav.nothing {
     text-indent: 60px;
 }
 
+.docsify-dark-switch {
+    top: 2rem !important;
+    right: 6rem !important;
+}
+
+.docsify-dark-switch>button:hover {
+    border-color: var(--switcher-border-color) !important;
+}
+
 @keyframes octocat-wave {
     0%, to {
         transform: rotate(0)
@@ -1265,11 +1280,11 @@ aside.toc-nav.nothing {
     }
 
     .sidebar-toggle span {
-        background-color: var(--silicom-color);
+        background-color: var(--sidebar-toggle-open-color);
     }
 
     body.close .sidebar-toggle span {
-        background-color: var(--white-color);
+        background-color: var(--sidebar-toggle-close-color);
     }
 
     body.close .content {
