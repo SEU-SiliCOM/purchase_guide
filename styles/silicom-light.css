@@ -45,8 +45,8 @@
     --sidebar-search-bg-color: var(--silicom-extra-light-color);
     --sidebar-search-color: var(--gray-light-color);
     --sidebar-search-hr-color: var(--gray-light-color);
-    --sidebar-toggle-open-color: var(--silicom-color);
-    --sidebar-toggle-close-color: var(--white-color);
+    --sidebar-toggle-open-color: var(--white-color);
+    --sidebar-toggle-close-color: var(--silicom-color);
     --sidebar-toggle-hover-color: var(--silicom-light-color);
     --content-bg-color: var(--white-color);
     --content-color: var(--black-color);
@@ -54,6 +54,7 @@
     --content-decoration1-color: var(--silicom-color);
     --content-decoration2-color: var(--silicom-light-color);
     --content-info-color: var(--gray-color);
+    --content-title-h2-color: var(--silicom-extr-dark-color);
     --content-list-mark-color: var(--silicom-color);
     --content-block-bg-color: var(--silicom-extra-light-color);
     --content-block-border-color: var(--silicom-color);
@@ -70,6 +71,9 @@
     --toc-primary-color: var(--silicom-color);
     --toc-secondary-color: var(--gray-extra-light-color);
     --pagination-hover-bg-color: var(--silicom-extra-light-color);
+    --github-color: var(--white-color);
+    --github-bg-color: var(--silicom-color);
+    --switcher-border-color: var(--silicom-color);
 
     --toc-mobile-bg-color: var(--silicom-extra-light-color);
 
