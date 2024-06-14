@@ -1,3 +1,4 @@
+---
 name: 问题报告
 description: 项目的文档或者代码需要补充与修改。
 title: "[Problem]: "
@@ -40,3 +41,4 @@ body:
       placeholder: ex. 70 系列显卡包含 7050、7060、7070 和 7080 四款显卡……
     validations:
       required: false
+---
