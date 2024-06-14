@@ -1,10 +1,10 @@
+---
 name: 问题讨论
 description: 有争议性的问题，需要讨论。
 title: "[Discuss]: "
 labels: ["question"]
 
 body:
-
 - type: markdown
     attributes:
       value: |
@@ -43,3 +43,4 @@ body:
       options:
         - label: 我确认发布的内容不包含侮辱性、歧视性、攻击性内容。同时，我确保能够与他人友好地讨论问题。
           required: true
+---
