@@ -1,0 +1,43 @@
+name: 问题讨论
+description: 有争议性的问题，需要讨论。
+title: "[Discuss]: "
+labels: ["question"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      感谢您向我们提出讨论！请填写以下内容，以帮助我们更好地理解问题并解决它。
+- type: dropdown
+  id: type
+  attributes:
+    label: 问题类型
+    multiple: false
+    options:
+      - 技术参数
+      - 产品评价
+      - 购买建议
+      - 其他
+- type: textarea
+  id: what-happened
+  attributes:
+    label: 问题描述
+    description: 请简要描述您遇到的问题。
+    placeholder: ex. 70 系列的显卡哪张更好？
+  validations:
+    required: true
+- type: textarea
+  id: what-should-happen
+  attributes:
+    label: 个人想法（可选）
+    description: 请简要描述您的个人想法。
+    placeholder: ex. 7080 显卡的性能最好……
+  validations:
+    required: false
+- type: checkboxes
+  id: terms
+  attributes:
+    label: 提交前请确认
+    description: 请确认您已阅读并同意遵守本项目的行为准则。
+    options:
+      - label: 我确认发布的内容不包含侮辱性、歧视性、攻击性内容。同时，我确保能够与他人友好地讨论问题。
+        required: true
