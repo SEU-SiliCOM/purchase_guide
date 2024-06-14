@@ -1,6 +1,6 @@
-![Cover Image](./imgs/coverpage.jpg)
+![Cover Image](./assets/imgs/coverpage.jpg)
 
-<img class="logo" src="./imgs/logo.png" alt="logo">
+<img class="logo" src="./assets/imgs/logo.png" alt="logo">
 
 # SiliCOM电脑协会购机指南 <small>v0.1.0</small>
 
