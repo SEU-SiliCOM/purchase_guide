@@ -1231,22 +1231,22 @@ aside.toc-nav.nothing {
     }
 
     .sidebar-toggle {
+        position: fixed;
+        left: auto;
+        right: 0.5rem;
+        bottom: 0.5rem;
+        padding: 0.5rem;
         background-color: var(--sidebar-toggle-close-color);
         opacity: 0.6;
         transition: all 0.25s ease-in-out;
     }
 
-    .sidebar-toggle:hover {
-        opacity: 1;
-    }
-
     body.close .sidebar-toggle {
         opacity: 1;
-        background-color: transparent;
     }
 
     .sidebar-toggle::before {
-        transform: translateX(calc(var(--sidebar-width)* -1));
+        display: none;
     }
 
     body.close .sidebar-toggle::before {
@@ -1296,20 +1296,12 @@ aside.toc-nav.nothing {
     }
 
     .github-corner {
-        opacity: 0.6;
-        transition: all 0.25s ease-in-out;
+        display: none;
     }
 
-    .github-corner:hover {
-        opacity: 1;
-    }
-
-    .github-corner:hover .octo-arm {
-        animation: none;
-    }
-
-    .github-corner .octo-arm {
-        animation: octocat-wave .56s ease-in-out;
+    .docsify-dark-switch {
+        position: absolute !important;
+        right: 30px !important;
     }
 }
 
@@ -1323,24 +1315,7 @@ aside.toc-nav.nothing {
     }
 
     aside.toc-nav {
-        top: auto;
-        bottom: 1rem;
-        width: 15rem;
-        margin: 0;
-        padding: 0.25rem 1rem;
-        background-color: var(--toc-mobile-bg-color);
-        transform: translateX(14.5rem);
-        opacity: 0.6;
-        transition: all 0.25s ease-in-out;
-    }
-
-    aside.toc-nav .page-toc {
-        margin: 0;
-    }
-
-    aside.toc-nav:hover {
-        transform: translateX(1rem);
-        opacity: 1;
+        display: none;
     }
 }
 
