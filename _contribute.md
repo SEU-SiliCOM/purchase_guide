@@ -6,21 +6,19 @@
 
 如果你想为本项目贡献文档或代码，请参考以下步骤：
 
-1. [Fork 本项目](https://github.com/SEU-SiliCOM/purchase_guide/fork)
-
-2. 将 **Fork 后的项目** Clone 到本地：
+1. 将项目 Clone 到本地：
 
    ```bash
-   git clone https://github.com/<你的GitHub用户名>/purchase_guide.git
+   git clone https://github.com/SEU-SiliCOM/purchase_guide.git
    ```
 
-3. 创建一个新分支并切换到该分支：
+2. 创建一个新分支并切换到该分支：
 
    ```bash
    git checkout -b <任意名称>
    ```
 
-4. 对文件进行修改。修改完成后，可以在本地预览修改效果：
+3. 对文件进行修改。修改完成后，可以在本地预览修改效果：
 
    ```bash
    docsify serve
@@ -28,7 +26,7 @@
 
    然后在浏览器中打开 `http://localhost:3000` 查看修改效果。
 
-5. 提交修改并推送到远程仓库：
+4. 提交修改并推送到远程仓库：
 
    ```bash
    git add .
@@ -45,13 +43,13 @@
    >
    > 如果修改了多处内容，请在每修改完一处后执行一次 `git add` 和 `git commit`。全部修改完后再一并执行 `git push`。
 
-6. 在 GitHub 上提交 Pull Request
+5. 在 GitHub 上提交 Pull Request
 
-   ![发起PR流程](./assets/imgs/contribute_pr1.png)
+   ![发起PR流程](./assets/imgs/contribute_pr1.webp)
 
    等待仓库管理员审核后，即可合并到主分支。
 
-7. 合并后，删除你自己的分支：
+6. 合并后，删除你自己的分支：
 
    ```bash
    git checkout main
@@ -65,4 +63,4 @@
    git pull origin main
    ```
 
-   然后再从第 3 步开始。
+   然后再从第 2 步开始。
