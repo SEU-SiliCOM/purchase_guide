@@ -17,6 +17,8 @@ body:
       - 产品评价
       - 购买建议
       - 其他
+  validations:
+    required: true
 - type: textarea
   id: what-happened
   attributes:
