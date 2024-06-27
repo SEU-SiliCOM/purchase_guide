@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    "*.md": "markdown",
+  },
+  "markdownlint.config": {
+    "MD013": false, // Disable line length check
+    "MD024": false, // Disable multiple headers with the same content check
+    "MD028": false, // Disable blank line after list check
+    "MD031": false, // Disable blanks around headers check
+    "MD033": false, // Disable inline HTML check
+  },
+  /* 设置Indent using spaces 且大小为2 */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+}

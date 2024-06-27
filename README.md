@@ -1,11 +1,47 @@
-# 写在前面
+# SEU-SiliCOM Purchase Guide
 
-本站内容为东南大学 SiliCOM 电脑协会成员撰写的新生购机指南。
+## 简介
 
-本指南主要偏向讨论新机，而基本不讨论二手机相关话题。为了提高效率，本指南不会过多深入介绍电脑的各部件作用，只会简单介绍，把笔墨更多地放在选择方面。如果你想深入了解，可以报名我们开设的第二课堂或者考虑加入我们。
+本项目为东南大学 SiliCOM 电脑协会编写的新生购机指南。本指南旨在帮助新生选择适合自己的电脑，并提供一些购买建议。
 
-关于选购平台，我们比较推荐线上官方店购买（x东，x宝等平台），原因不再赘述，在购买的过程中需要确保商家确为官方店。以x东举例，品牌名+x东自营旗舰店通常为官方店，品牌名+...+授权专卖店不为直接的官方店，这个容易弄混，需要注意。
+## 本地部署
 
-如果你在看完本指南之后还是存在一些问题需要咨询，可以加入本协会面向全校的 QQ 答疑群 [**SiliCOM电脑答疑群**](https://qm.qq.com/q/4TD2KD7k2k) 或者访问我们的论坛: [SiliCOM BBS](https://rtfm.top/)
+本项目使用 [Docsify](https://docsify.js.org/) 生成文档，可以通过以下方式部署：
 
-如果你觉得本指南有不足之处，请参考[贡献本项目](_contribute.md)。
+1. 安装 Node.js
+2. 安装 Docsify
+
+    ```bash
+    npm i docsify-cli -g
+    ```
+
+3. 克隆本项目
+
+   ```bash
+    git clone https://github.com/SEU-SiliCOM/purchase_guide
+    cd purchase_guide
+    ```
+
+4. 启动本地服务器
+
+    ```bash
+    docsify serve docs
+    ```
+
+5. 在浏览器中打开 `http://localhost:3000` 即可查看文档
+
+## 贡献本项目
+
+如果你觉得本指南有不足之处，欢迎参考[贡献本项目](_contribute.md)。
+
+## 免责与版权声明
+
+> [!IMPORTANT]
+> 本指南仅供参考，不对购买行为负责。东南大学 SiliCOM 电脑协会对本指南拥有最终解释权。
+
+> [!IMPORTANT]
+> 本指南采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) 协议授权。未经许可，禁止用于商业用途。
+
+## 联系我们
+
+如果你在看完本指南之后还是存在一些问题需要咨询，可以提出 [Issue](https://github.com/SEU-SiliCOM/purchase_guide/issues/new?assignees=&labels=question&projects=&template=issue-template-discuss.yml&title=%5BDiscuss%5D%3A+) 或者加入本协会面向全校的 QQ 答疑群 [SiliCOM电脑答疑群](https://qm.qq.com/q/4TD2KD7k2k)
