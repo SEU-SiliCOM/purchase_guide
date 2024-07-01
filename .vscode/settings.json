@@ -8,6 +8,7 @@
     "MD028": false, // Disable blank line after list check
     "MD031": false, // Disable blanks around headers check
     "MD033": false, // Disable inline HTML check
+    "MD045": false, // Disable ordered list item prefix check
   },
   /* 设置Indent using spaces 且大小为2 */
   "editor.tabSize": 2,
