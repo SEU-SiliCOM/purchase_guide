@@ -76,6 +76,9 @@
   --switcher-border-color: var(--silicom-color);
 
   --toc-mobile-bg-color: var(--silicom-extra-dark-color);
+  --sidebar-mobile-toggle-open-color: var(--white-color);
+  --switcher-mobile-border-color: var(--white-color);
+  --switcher-mobile-bg-color: var(--silicom-dark-color);
 
   --silicom-font: "Roboto", "Noto Sans SC", Arial, sans-serif;
   --silicom-mono-font: "Chivo Mono", monospace, sans-serif;
