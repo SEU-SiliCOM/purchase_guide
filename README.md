@@ -8,7 +8,7 @@
 
 本项目使用 [Docsify](https://docsify.js.org/) 生成文档，可以通过以下方式部署：
 
-1. 安装 Node.js
+1. 下载并安装 [Node.js](https://nodejs.org/zh-cn)
 2. 安装 Docsify
 
     ```bash
@@ -25,7 +25,7 @@
 4. 启动本地服务器
 
     ```bash
-    docsify serve docs
+    docsify serve .
     ```
 
 5. 在浏览器中打开 `http://localhost:3000` 即可查看文档
