@@ -145,9 +145,16 @@ li input[type=checkbox] {
   transition: color .3s
 }
 
-.app-nav a.active, .app-nav a:hover {
+.app-nav a.active {
   color: var(--silicom-color);
   color: var(--theme-color, var(--silicom-color))
+}
+
+@media (hover: hover) {
+  .app-nav a:hover {
+    color: var(--silicom-color);
+    color: var(--theme-color, var(--silicom-color))
+  }
 }
 
 .app-nav a.active {
@@ -199,8 +206,10 @@ li input[type=checkbox] {
   border-bottom: 0
 }
 
-.app-nav li:hover ul {
-  display: block
+@media (hover: hover) {
+  .app-nav li:hover ul {
+    display: block
+  }
 }
 
 .github-corner {
@@ -213,8 +222,10 @@ li input[type=checkbox] {
   z-index: 1
 }
 
-.github-corner:hover .octo-arm {
-  animation: octocat-wave .56s ease-in-out
+@media (hover: hover) {
+  .github-corner:hover .octo-arm {
+    animation: octocat-wave .56s ease-in-out
+  }
 }
 
 .github-corner svg {
@@ -320,10 +331,12 @@ body:not(.close) .content {
   font-size: 1.2rem;
 }
 
-.sidebar ul li:not(.active):hover {
-  color: var(--sidebar-hover-color);
-  background-color: var(--sidebar-hover-bg-color);
-  border-left: 0.25rem solid var(--sidebar-hover-border-color);
+@media (hover: hover) {
+  .sidebar ul li:not(.active):hover {
+    color: var(--sidebar-hover-color);
+    background-color: var(--sidebar-hover-bg-color);
+    border-left: 0.25rem solid var(--sidebar-hover-border-color);
+  }
 }
 
 .sidebar ul li a {
@@ -339,9 +352,14 @@ body:not(.close) .content {
   padding: 0.5rem 0.25rem 0.5rem 1.5rem;
 }
 
-.sidebar ul li.active a,
-.sidebar ul li:hover a {
+.sidebar ul li.active a {
   padding: 0.5rem 0.25rem 0.5rem 1.25rem;
+}
+
+@media (hover: hover) {
+  .sidebar ul li:hover a {
+    padding: 0.5rem 0.25rem 0.5rem 1.25rem;
+  }
 }
 
 .sidebar .search {
@@ -412,12 +430,14 @@ body:not(.close) .content {
   border-bottom: 0.05rem solid var(--sidebar-search-hr-color);
 }
 
-.sidebar .search .matching-post:hover {
-  border-left: 0.25rem solid var(--sidebar-hover-border-color);
-  padding: 0;
-  color: var(--sidebar-hover-color);
-  background-color: var(--sidebar-hover-bg-color);
-  text-decoration: none;
+@media (hover: hover) {
+  .sidebar .search .matching-post:hover {
+    border-left: 0.25rem solid var(--sidebar-hover-border-color);
+    padding: 0;
+    color: var(--sidebar-hover-color);
+    background-color: var(--sidebar-hover-bg-color);
+    text-decoration: none;
+  }
 }
 
 .sidebar .search .matching-post.active {
@@ -490,16 +510,20 @@ body.close .sidebar-toggle::before {
   height: calc(0.5rem / 3);
 }
 
-.sidebar-toggle:hover span {
-  background-color: var(--sidebar-toggle-hover-color);
+@media (hover: hover) {
+  .sidebar-toggle:hover span {
+    background-color: var(--sidebar-toggle-hover-color);
+  }
 }
 
 body.close .sidebar-toggle span {
   background-color: var(--sidebar-toggle-close-color);
 }
 
-body.close .sidebar-toggle:hover span {
-  background-color: var(--sidebar-toggle-hover-color);
+@media (hover: hover) {
+  body.close .sidebar-toggle:hover span {
+    background-color: var(--sidebar-toggle-hover-color);
+  }
 }
 
 .markdown-section {
@@ -566,13 +590,16 @@ body.close .sidebar-toggle:hover span {
   color: inherit;
 }
 
-.markdown-section h1 a:hover,
-.markdown-section h2 a:hover,
-.markdown-section h3 a:hover,
-.markdown-section h4 a:hover,
-.markdown-section h5 a:hover,
-.markdown-section h6 a:hover {
-  text-decoration: none;
+@media (hover: hover) {
+
+  .markdown-section h1 a:hover,
+  .markdown-section h2 a:hover,
+  .markdown-section h3 a:hover,
+  .markdown-section h4 a:hover,
+  .markdown-section h5 a:hover,
+  .markdown-section h6 a:hover {
+    text-decoration: none;
+  }
 }
 
 .markdown-section h2 {
@@ -595,8 +622,10 @@ body.close .sidebar-toggle:hover span {
   transition: width 0.25s ease-in-out;
 }
 
-.markdown-section h2:hover::after {
-  width: 100%;
+@media (hover: hover) {
+  .markdown-section h2:hover::after {
+    width: 100%;
+  }
 }
 
 .markdown-section h3 {
@@ -641,12 +670,14 @@ body.close .sidebar-toggle:hover span {
   transition: text-decoration 0.25s ease-in-out;
 }
 
-.markdown-section a:hover {
-  text-decoration: underline;
-}
+@media (hover: hover) {
+  .markdown-section a:hover {
+    text-decoration: underline;
+  }
 
-.markdown-section sup a:hover {
-  text-decoration: none;
+  .markdown-section sup a:hover {
+    text-decoration: none;
+  }
 }
 
 .markdown-section img {
@@ -704,8 +735,10 @@ body.close .sidebar-toggle:hover span {
   background-color: var(--content-table-tbody-even-bg-color);
 }
 
-.markdown-section table tbody tr:hover {
-  background-color: var(--content-table-tbody-hover-bg-color);
+@media (hover: hover) {
+  .markdown-section table tbody tr:hover {
+    background-color: var(--content-table-tbody-hover-bg-color);
+  }
 }
 
 .markdown-section table tbody tr td {
@@ -844,9 +877,14 @@ section.cover a {
   color: inherit
 }
 
-section.cover a,
-section.cover a:hover {
+section.cover a {
   text-decoration: none
+}
+
+@media (hover: hover) {
+  section.cover a:hover {
+    text-decoration: none
+  }
 }
 
 section.cover p:has(a) {
@@ -878,9 +916,11 @@ section.cover p:has(a) a:first-child {
   color: var(--home-button1-color);
 }
 
-section.cover p:has(a) a:first-child:hover {
-  background-color: var(--home-button1-border-color);
-  color: var(--home-button1-hover-color);
+@media (hover: hover) {
+  section.cover p:has(a) a:first-child:hover {
+    background-color: var(--home-button1-border-color);
+    color: var(--home-button1-hover-color);
+  }
 }
 
 section.cover p:has(a) a:last-child {
@@ -889,10 +929,12 @@ section.cover p:has(a) a:last-child {
   background-color: var(--home-button2-bg-color);
 }
 
-section.cover p:has(a) a:last-child:hover {
-  background-color: var(--home-button2-hover-bg-color);
-  border-color: var(--home-button2-hover-bg-color);
-  color: var(--home-button2-hover-color);
+@media (hover: hover) {
+  section.cover p:has(a) a:last-child:hover {
+    background-color: var(--home-button2-hover-bg-color);
+    border-color: var(--home-button2-hover-bg-color);
+    color: var(--home-button2-hover-color);
+  }
 }
 
 section.cover h1 {
@@ -1089,12 +1131,14 @@ aside.toc-nav.nothing {
   font-size: 1.2em;
 }
 
-.page_toc .anchor:hover:after {
-  content: "";
-}
+@media (hover: hover) {
+  .page_toc .anchor:hover:after {
+    content: "";
+  }
 
-.page_toc div[class^="lv"] a:hover span {
-  color: var(--toc-primary-color);
+  .page_toc div[class^="lv"] a:hover span {
+    color: var(--toc-primary-color);
+  }
 }
 
 .page_toc div {
@@ -1156,8 +1200,10 @@ aside.toc-nav.nothing {
   right: 6rem !important;
 }
 
-.docsify-dark-switch>button:hover {
-  border-color: var(--switcher-border-color) !important;
+@media (hover: hover) {
+  .docsify-dark-switch>button:hover {
+    border-color: var(--switcher-border-color) !important;
+  }
 }
 
 @keyframes octocat-wave {
@@ -1200,7 +1246,7 @@ aside.toc-nav.nothing {
   }
 
   section.cover h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem
   }
 
   section.cover h1 small {
@@ -1230,18 +1276,21 @@ aside.toc-nav.nothing {
   }
 
   .sidebar {
+    top: 3rem;
     left: calc(var(--sidebar-width) * -1);
     transition: transform 0.25s ease-in-out;
   }
 
   .sidebar-toggle {
     position: fixed;
-    left: auto;
-    right: 0.5rem;
-    bottom: 0.5rem;
-    padding: 0.5rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    padding: 1rem;
+    line-height: 1rem;
     background-color: var(--sidebar-toggle-close-color);
-    opacity: 0.6;
+    opacity: 1;
     transition: all 0.25s ease-in-out;
   }
 
@@ -1257,11 +1306,25 @@ aside.toc-nav.nothing {
     transform: translateX(0);
   }
 
+  body:not(.close) .sidebar-toggle::after {
+    content: "SiliCOM购机指南";
+    color: var(--sidebar-title-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem 0;
+    transition: all 0.25s ease-in-out;
+  }
+
   .content {
     left: 0;
     max-width: 100vw;
     position: static;
-    padding-top: 20px;
+    padding-top: 8rem;
     margin: 0;
     transition: transform 0.25s ease-in-out;
   }
@@ -1284,11 +1347,24 @@ aside.toc-nav.nothing {
   }
 
   .sidebar-toggle span {
-    background-color: var(--sidebar-toggle-open-color);
+    background-color: var(--sidebar-mobile-toggle-open-color);
   }
 
   body.close .sidebar-toggle span {
-    background-color: var(--sidebar-toggle-close-color);
+    background-color: var(--sidebar-mobile-toggle-open-color);
+    transition: all 0.15s ease-in-out;
+  }
+
+  body.close .sidebar-toggle .sidebar-toggle-button span:first-child {
+    transform: rotate(45deg) translateX(calc(0.25rem + 0.5rem/3)) translateY(calc(0.25rem - 0.05rem));
+  }
+
+  body.close .sidebar-toggle .sidebar-toggle-button span:last-child {
+    transform: rotate(-45deg) translateX(calc(0.25rem + 0.5rem/3)) translateY(calc(-0.25rem + 0.05rem));
+  }
+
+  body.close .sidebar-toggle .sidebar-toggle-button span:nth-child(2) {
+    opacity: 0;
   }
 
   body.close .content {
@@ -1304,8 +1380,27 @@ aside.toc-nav.nothing {
   }
 
   .docsify-dark-switch {
-    position: absolute !important;
-    right: 30px !important;
+    position: fixed !important;
+    top: 0.9rem !important;
+    right: 1rem !important;
+  }
+
+  .docsify-dark-switch>button {
+    border-color: var(--switcher-mobile-border-color) !important;
+    background-color: var(--switcher-mobile-bg-color) !important;
+  }
+
+  .docsify-dark-switch>button:hover {
+    border-color: var(--switcher-mobile-border-color) !important;
+  }
+
+  .content h1 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .markdown-section>:first-child {
+    top: calc(8.5rem + 8rem)
   }
 }
 
