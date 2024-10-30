@@ -8,4 +8,4 @@
 
 如果你在看完本指南之后还是存在一些问题需要咨询，可以加入本协会面向全校的 QQ 答疑群 [**SiliCOM电脑答疑群**](https://qm.qq.com/q/4TD2KD7k2k) 或者访问我们的论坛: [SiliCOM BBS](https://rtfm.top/)
 
-如果你觉得本指南有不足之处，请参考[贡献本项目](_contribute.md)。
+如果你觉得本指南有不足之处，请参考[贡献本项目](pages/_contribute.md)。
