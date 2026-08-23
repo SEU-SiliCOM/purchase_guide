@@ -3,6 +3,7 @@
 - [方案选择](pages/_scheme.md)
 - [硬件概述](pages/_hardware.md)
 - [笔记本选择](pages/_laptop.md)
+- [台式机装机指南](pages/_desktop.md)
 - [前辈的选择与问题](pages/_eldership.md)
 - [验机指南与基本设置](pages/_check.md)
 - [关于我们](pages/_about.md)
